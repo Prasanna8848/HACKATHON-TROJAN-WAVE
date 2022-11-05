@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Prasanna8848/HACKATHON-TROJAN-WAVE.git/static/css/main.073c9b0a.css",
-    "main.js": "/Prasanna8848/HACKATHON-TROJAN-WAVE.git/static/js/main.af77b09c.js",
-    "static/js/787.7f244978.chunk.js": "/Prasanna8848/HACKATHON-TROJAN-WAVE.git/static/js/787.7f244978.chunk.js",
-    "static/media/logo.svg": "/Prasanna8848/HACKATHON-TROJAN-WAVE.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/Prasanna8848/HACKATHON-TROJAN-WAVE.git/index.html",
-    "main.073c9b0a.css.map": "/Prasanna8848/HACKATHON-TROJAN-WAVE.git/static/css/main.073c9b0a.css.map",
-    "main.af77b09c.js.map": "/Prasanna8848/HACKATHON-TROJAN-WAVE.git/static/js/main.af77b09c.js.map",
-    "787.7f244978.chunk.js.map": "/Prasanna8848/HACKATHON-TROJAN-WAVE.git/static/js/787.7f244978.chunk.js.map"
+    "main.css": "/HACKATHON-TROJAN-WAVE/static/css/main.073c9b0a.css",
+    "main.js": "/HACKATHON-TROJAN-WAVE/static/js/main.169f125e.js",
+    "static/js/787.7f244978.chunk.js": "/HACKATHON-TROJAN-WAVE/static/js/787.7f244978.chunk.js",
+    "static/media/logo.svg": "/HACKATHON-TROJAN-WAVE/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/HACKATHON-TROJAN-WAVE/index.html",
+    "main.073c9b0a.css.map": "/HACKATHON-TROJAN-WAVE/static/css/main.073c9b0a.css.map",
+    "main.169f125e.js.map": "/HACKATHON-TROJAN-WAVE/static/js/main.169f125e.js.map",
+    "787.7f244978.chunk.js.map": "/HACKATHON-TROJAN-WAVE/static/js/787.7f244978.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.af77b09c.js"
+    "static/js/main.169f125e.js"
   ]
 }
