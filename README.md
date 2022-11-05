@@ -1,7 +1,7 @@
 #Team:- TROJAN WAVE
 
 #Prasanna Dhungana GITHUB:- Prasanna8848 Suman Pandit GITHUB:- sumanpandit2058 Saphal Pantha GITHUB:- saphalpantha Ritesh Yadav GITHUB:- theriteshy
-
+P.S.: This project was made in Repelit so, the commit are been done by the replit id (PRasanna17) only. Please consider it!
 
 
 # Getting Started with Create React App
