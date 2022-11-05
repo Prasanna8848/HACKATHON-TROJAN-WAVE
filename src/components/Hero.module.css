@@ -1,0 +1,50 @@
+.container{
+    width : 100%;
+}
+.header{
+    display:flex;
+}
+.nav{
+    width :90%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 4px 50px;
+    position: relative;
+}
+
+.nav ul li{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    transition : all 0.3s linear;
+}
+
+.nav ul li:hover{
+    color :#f44336;
+}
+
+.main{
+    width:100%;
+}
+
+.hero__heading{
+    padding:10% 25%;
+    font-size: 20px;
+}
+
+.card__container__inside{
+    display: flex;
+}
+.card{
+    justify-content: space-between;
+}
+.card__container__inside span{
+    color:white;
+    width: 50px;
+}
