@@ -1,8 +1,8 @@
 import React from "react";
-import Login from "./UI/Login";
-import Card from "./UI/Card";
-import {logo} from '../public/images/logo.png'
-import  classes from "./hero.module.css"
+import Card from "./Card";
+import {Link} from 'react-router-dom'
+import  classes from "./Hero.module.css"
+
 
 const Images = [
   {id:'i1', title:"hello", link:"https://i.postimg.cc/d0DLPgpT/logo.png"}
@@ -12,11 +12,11 @@ const Hero = () => {
     <div className={classes["container"]}>
       <header className={classes.header}>
         
-        <div className="logo">
+        <div className={classes["logo"]}>
           
-       <Image src={Images[0].link} width={100} height={100}></Image>
+       <img src={Images[0].link}></img>
         </div>
-        <div className="nav">
+        <div className={classes["nav"]}>
             <ul>
                 
                 <li> <Link href="/">Home</Link></li>
@@ -26,17 +26,17 @@ const Hero = () => {
             </ul>
 
         </div>
-        <Login className="login_classname">Get Started</Login>
+        <a className={classes['login_classname']}>Get Started</a>
       </header>
-      <main className="main">
-        <div className="hero__heading">
+      <main className={classes['main']}>
+        <div className={classes['hero__heading']}>
           <h3>Start Your Journey Now</h3>
         </div>
-        <div className="card__container__outside">
-          <div className="card__container__inside">
-            <Card className="card">Learn From Peers and Senior</Card>
-            <span className="vertical_line"></span>
-            <Card className="card">No Hidden Charges</Card>
+        <div className={classes["card__container__outside"]}>
+          <div className={classes["card__container__inside"]}>
+            <Card className={classes['card']}>Learn From Peers and Senior</Card>
+            <span className={classes['vertical_line']}></span>
+            <Card className={classes['card']}>No Hidden Charges</Card>
             <span className="vertical_line"></span>
             <Card className="card">Consult with Tutor on realtime</Card>
           </div>
