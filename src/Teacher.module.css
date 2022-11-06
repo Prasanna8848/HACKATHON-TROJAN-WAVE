@@ -1,0 +1,263 @@
+.container{
+  height:100vh;
+/*   background-color:lightseagreen; */
+  background-image:url('https://iili.io/mP0cJV.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.icon__left{
+  width:20;
+  display:flex;.container{
+  height:100vh;
+/*   background-color:lightseagreen; */
+  background-image:url('https://iili.io/mP0cJV.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.icon__left{
+  width:20;
+  display:flex;
+}
+
+.logo{
+    width: 7.5em;
+    height: 2em;
+    background-color: #ffffff;
+    border: 1px black;
+    border-radius: 40px;
+    box-shadow: 0px 6px 8px -5px #000000;
+    margin: 10px 5px 0px 10px;
+}
+.logo img{
+    height: 8em;
+    position: relative;
+    left: -5.9px;
+    top: -43px;
+}
+.menu_bar img{
+    height: 2em;
+    margin: 10px 0px 0px 10px;
+}
+
+.join-now{
+  margin:1rem;
+  display:flex;
+  outline:none;
+  text-decoration:none;
+  box-shadow:0px 5px 20px #3e3e3e;
+  border-radius:20px;
+  background-color:#9679e1;
+  padding:0.4em;
+  color:white;
+  width:100%;
+  font-size:1.5rem;
+  margin-top:1rem;
+}
+
+/* .join-now span img{
+  width:10em;
+  height:10em;
+  margin-left:1rem;
+  transform:rotate(180deg);
+} */
+
+
+
+
+.container__inside{
+  display:flex;
+  width:100%;
+  justify-content:space-evenly;
+  
+}
+
+.text__center{
+  object-align:right;
+  text-align:center;
+}
+
+.container__left{
+  display:flex;
+  justify-content:space-evenly;
+  flex-direction:column;
+  flex:0.8;
+}
+
+.teacher{
+  width: 9px;
+  margin-top: -21rem;
+  height: 0px;
+  margin-left: 250px
+}
+
+.container__right{
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    margin-top: -9em;
+    flex: 0.5 1;
+}
+
+.teacher img{
+  width: 12em;
+  height: 12em;
+}
+
+.checklist{
+  height: 201px;
+  margin-left: 80px;
+}
+.checklist img{
+  width :28em;
+  height:20em;
+}
+
+.form{
+  font-size:1.5rem;
+
+}
+
+.form input{
+  padding:0.7em;
+  margin-right:4rem;
+  margin-bottom:1rem;
+  width:100%;
+  padding:1em;
+  outline:none;
+  border-radius:15px;
+  border:none;
+  box-shadow:0px 4px 13px gray;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+.logo{
+    width: 7.5em;
+    height: 2em;
+    background-color: #ffffff;
+    border: 1px black;
+    border-radius: 40px;
+    box-shadow: 0px 6px 8px -5px #000000;
+    margin: 10px 5px 0px 10px;
+}
+.logo img{
+    height: 8em;
+    position: relative;
+    left: -5.9px;
+    top: -43px;
+}
+.menu_bar img{
+    height: 2em;
+    margin: 10px 0px 0px 10px;
+}
+
+.join-now{
+  margin:1rem;
+  display:flex;
+  outline:none;
+  text-decoration:none;
+  box-shadow:0px 5px 20px #3e3e3e;
+  border-radius:20px;
+  background-color:#9679e1;
+  padding:0.4em;
+  color:white;
+  width:100%;
+  font-size:1.5rem;
+  margin-top:1rem;
+  
+}
+
+/* .join-now span img{
+  width:10em;
+  height:10em;
+  margin-left:1rem;
+  transform:rotate(180deg);
+} */
+
+
+
+
+.container__inside{
+  display:flex;
+  width:100%;
+  justify-content:space-evenly;
+  
+}
+
+.text__center{
+  object-align:right;
+  text-align:center;
+}
+
+.container__left{
+  display:flex;
+  justify-content:space-evenly;
+  flex-direction:column;
+  flex:0.8;
+}
+
+.teacher{
+  width: 9px;
+  margin-top: -21rem;
+  height: 0px;
+  margin-left: 250px
+}
+
+.container__right{
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    margin-top: -9em;
+    flex: 0.5 1;
+}
+
+.teacher img{
+  width: 12em;
+  height: 12em;
+}
+
+.checklist{
+  height: 201px;
+  margin-left: 80px;
+}
+.checklist img{
+  width :28em;
+  height:20em;
+}
+
+.form{
+  font-size:1.5rem;
+
+}
+
+.form input{
+  padding:0.7em;
+  margin-right:4rem;
+  margin-bottom:1rem;
+  width:100%;
+  padding:1em;
+  outline:none;
+  border-radius:15px;
+  border:none;
+  box-shadow:0px 4px 13px gray;
+}
+
+
+
+
+
+
+
+
+

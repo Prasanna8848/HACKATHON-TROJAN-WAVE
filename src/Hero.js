@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./Card";
 import {Link} from 'react-router-dom'
 import  classes from "./Hero.module.css"
-
+import Nav from './Nav'
 
 const Images = [
   {id:'i1', title:"hello", link:"https://i.postimg.cc/d0DLPgpT/logo.png"}
@@ -11,34 +11,50 @@ const Hero = () => {
   return (
     <div className={classes["container"]}>
       <header className={classes.header}>
-        
         <div className={classes["logo"]}>
           
-       <img src={Images[0].link}></img>
+       <img src={"https://i.postimg.cc/jqwyNVN1/logo-transparent.png"}></img>
         </div>
         <div className={classes["nav"]}>
             <ul>
                 
-                <li> <Link href="/">Home</Link></li>
-                <li> <Link href="/">About</Link></li>
-                <li> <Link href="/selection">Team</Link></li>
-                <li> <Link href="/">Contact</Link></li>
+                <li> <Nav to="/">Home</Nav></li>
+                <li> <Nav to="/about">About</Nav></li>
+                <li> <Nav to="/team">Team</Nav></li>
+                <li> <Nav to="/contact">Contact</Nav></li>
             </ul>
 
         </div>
-        <a className={classes['login_classname']}>Get Started</a>
+        <Nav className={classes['login_classname']} to="/get-started" >GetStarted</Nav>
+        <Nav className={classes['login_classname']}>Login</Nav>
       </header>
       <main className={classes['main']}>
         <div className={classes['hero__heading']}>
-          <h3>Start Your Journey Now</h3>
+          <h3>Start Your Learning Journey Now</h3>
+          <img src="" />
         </div>
         <div className={classes["card__container__outside"]}>
           <div className={classes["card__container__inside"]}>
-            <Card className={classes['card']}>Learn From Peers and Senior</Card>
+            <Card className={classes['card']}>
+              <div className={classes['card__back']}>
+              <img src="https://i.postimg.cc/XYXXm0ws/logo2png.png" alt="img"/>
+              </div>
+            <p>Learn From Peers and Senior</p>
+            </Card>
             <span className={classes['vertical_line']}></span>
-            <Card className={classes['card']}>No Hidden Charges</Card>
-            <span className="vertical_line"></span>
-            <Card className="card">Consult with Tutor on realtime</Card>
+            <Card className={classes['card']}>
+              <div className={classes['card__back']}>
+              <img src="https://i.postimg.cc/XYXXm0ws/logo2png.png" alt="img"/>
+              </div>
+            <p>No Hidden Charges</p> 
+            </Card>
+            <span className={classes['vertical_line']}></span>
+            <Card className={classes['card']}>
+              <div className={classes['card__back']}>
+              <img src="https://i.postimg.cc/KjB6k5Hg/4035928.png" alt="img"/>
+              </div>
+            <p>Consult with Tutor on realtime</p>
+            </Card>
           </div>
         </div>
       <hr></hr>
