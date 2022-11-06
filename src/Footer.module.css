@@ -1,0 +1,15 @@
+.footer{
+  display:flex;
+  justify-content:space-between;
+}
+
+
+.footer .social{
+  display:flex;
+  margin-left:0.6rem;
+}
+
+
+
+
+

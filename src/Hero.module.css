@@ -48,17 +48,15 @@
     transition : all 0.3s linear;
 }
 
-.nav ul li:hover{
+a:hover{
     color :#f44336;
 }
 .login_classname{
   width :10em;
     height: 2.5em;
-    background-color: blue;
     margin-left: 1em;
     margin-right:2em;
     border: 1px black;
-  border-radius:20px;
   display:flex;
   flex-direction:column;
   align-content:center;
@@ -66,6 +64,9 @@
   text-decoration:none;
   color:white;
   text-weight:400;
+  background: #3742FA;
+  box-shadow: 0px 2px 4px rgba(136, 144, 194, 0.2), 0px 5px 15px rgba(37, 44, 97, 0.15);
+  border-radius: 11px;
 }
 .main{
     width:100%;
@@ -80,6 +81,14 @@
   padding-left:20%;
 }
 
+.hero__heading img{
+  position: absolute;
+width: 320px;
+height: 307px;
+left: 870px;
+top: 80px;
+}
+
 .card__container__inside{
     display: flex;
     width:60%;
@@ -89,6 +98,8 @@
     justify-content: space-between;
   padding-top:60px;
   width:25em;
+  margin-left:1rem;
+  
 }
 .card__container__inside span{
     color:white;
@@ -96,21 +107,69 @@
 }
 .card__back{
   width:13em;
-  background-color:purple;
   border-radius:20px;
+
 }
 .card img{
   width:90%;
   align-object:center;
 }
 
+.card__1{
+  width: 13em;
+    height: 134px;
+    background-color: #C7F0A7;
+    padding: 7px;
+  margin-top:4rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 23px;
+}
+
+.card__2{
+  width: 13em;
+    height: 134px;
+    background-color:  #D2BD9C;
+    padding: 7px;
+  margin-top:4rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 23px;
+}
+.card__2 p{
+  margin-top:25px;
+} 
+.card__3{
+  width: 13em;
+    height: 134px;
+    background-color: #B1A7F0;
+    padding: 7px;
+  margin-top:4rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 23px;
+}
 .vertical_line{
   padding-top:20px;
   left:10px;
+  margin-left:2rem;
+  margin-top:3rem;
   border-left: 1px solid black;
-  height: 200px;
+
+  height: 150px;
+  
 }
 
+
+.nav ul li{
+  text-decoration:none;
+  color:white;
+  
+  
+  
+}
+a{
+  color:white;
+  text-decoration:none;
+  
+}
 
 .vertical_line{
   

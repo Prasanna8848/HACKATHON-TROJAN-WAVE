@@ -3,6 +3,7 @@ import Card from "./Card";
 import {Link} from 'react-router-dom'
 import  classes from "./Hero.module.css"
 import Nav from './Nav'
+import Footer from './Footer';
 
 const Images = [
   {id:'i1', title:"hello", link:"https://i.postimg.cc/d0DLPgpT/logo.png"}
@@ -31,25 +32,25 @@ const Hero = () => {
       <main className={classes['main']}>
         <div className={classes['hero__heading']}>
           <h3>Start Your Learning Journey Now</h3>
-          <img src="" />
+          <img src="https://i.postimg.cc/5tX537GB/Homepage1.png" />
         </div>
         <div className={classes["card__container__outside"]}>
           <div className={classes["card__container__inside"]}>
-            <Card className={classes['card']}>
+            <Card className={`${classes['card']} ${classes['card__1']} `}>
               <div className={classes['card__back']}>
               <img src="https://i.postimg.cc/XYXXm0ws/logo2png.png" alt="img"/>
               </div>
             <p>Learn From Peers and Senior</p>
             </Card>
-            <span className={classes['vertical_line']}></span>
-            <Card className={classes['card']}>
+            <span  className={classes['vertical_line']}></span>
+            <Card className={`${classes['card']} ${classes['card__2']} `}>
               <div className={classes['card__back']}>
-              <img src="https://i.postimg.cc/XYXXm0ws/logo2png.png" alt="img"/>
+              <img src="https://i.postimg.cc/L6qNvs1Y/Nofee123.png" alt="img"/>
               </div>
             <p>No Hidden Charges</p> 
             </Card>
             <span className={classes['vertical_line']}></span>
-            <Card className={classes['card']}>
+            <Card className={`${classes['card']} ${classes['card__3']} `}>
               <div className={classes['card__back']}>
               <img src="https://i.postimg.cc/KjB6k5Hg/4035928.png" alt="img"/>
               </div>
@@ -57,18 +58,9 @@ const Hero = () => {
             </Card>
           </div>
         </div>
-      <hr></hr>
-      <footer className="footer">
-        <div className="social__links">
-            <img src="" alt=""></img>
-            <img src="" alt=""></img>
-            <img src="" alt=""></img>
-
-        </div>
-        <div className="contact">
-            <img src="" alt=""></img>
-            <span>+91932829392</span>
-        </div>
+      <hr style={{marginTop:'5rem'}}></hr>
+      <footer>
+      <Footer/>
       </footer>
       </main>
     </div>
