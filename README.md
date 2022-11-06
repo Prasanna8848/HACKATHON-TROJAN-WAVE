@@ -3,7 +3,9 @@
 #Prasanna Dhungana GITHUB:- Prasanna8848 Suman Pandit GITHUB:- sumanpandit2058 Saphal Pantha GITHUB:- saphalpantha Ritesh Yadav GITHUB:- theriteshy
 P.S.: This project was made in Repelit so, the commit are been done by the replit id (PRasanna17) only. Please consider it!
 
+Problem Statement:Students are facing lots of problems in studies due to lack of guidance, so we are developing a platform where we find best peers of their university, where they can collaborate to know more than they can know by themselves. Seniors with experience have faced those problems which juniours are going through so, our platform tries to solve those problems of juniors with the experience of seniors.
 
+Track:Student Community
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
